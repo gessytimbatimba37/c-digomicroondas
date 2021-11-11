@@ -15,7 +15,7 @@ let carne = 15                       //como vairáveis para serem utilizadas na 
 let feijao = 12
 let brigadeiro = 8
 
-function microondas(tempo,prato){          //Aqui o parâmetro tempo que busca as variáveis citadas anteriormente e
+function microondas(tempo,prato){          //Aqui o parâmetro prato que busca as variáveis citadas anteriormente e
                                            // o tempo que vai indicar quanto de tempo o usuário irá escolher.
 if (tempo>=prato && tempo<=prato*2) {
     console.log("Prato pronto, bom apetite!!!")
@@ -26,7 +26,7 @@ if (tempo>=prato && tempo<=prato*2) {
 }else if(tempo>=prato*3) {                         // BY GÉSSY (: //
     console.log("Kabummm")
 }else{
-    console.log("Pra inexistente")
+    console.log("Prato inexistente")
 }
     
 }   
