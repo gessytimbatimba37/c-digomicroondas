@@ -30,6 +30,3 @@ if (tempo>=prato && tempo<=prato*2) {
 }
     
 }   
-microondas(25,pipoca)
-microondas(30,carne)
-microondas(25,feijao)
